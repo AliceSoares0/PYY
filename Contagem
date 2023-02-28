@@ -1,0 +1,9 @@
+#contagem regressiva
+def contagemRegressiva (n):     #1
+    if n == 0:                  #2
+       print("Decolar")         #3
+    else:                       #4
+        print(n)                #5
+        contagemRegressiva(n-1) #6
+
+contagemRegressiva(3)     
